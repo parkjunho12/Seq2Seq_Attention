@@ -1,0 +1,37 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'Seq2Seq(Attention)_Tensor.ipynb'
+ outputting to 'tensor_Attention.ipynb'
+--------------------------------------------------------------------------------
+
+29:13: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+30:13: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+31:10: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+34:19: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+35:18: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+44:18: INFO: Added keywords to args of function 'tf.transpose'
+53:5: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+54:15: INFO: Renamed 'tf.nn.rnn_cell.BasicRNNCell' to 'tf.compat.v1.nn.rnn_cell.BasicRNNCell'
+55:15: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+58:30: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+60:5: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+61:15: INFO: Renamed 'tf.nn.rnn_cell.BasicRNNCell' to 'tf.compat.v1.nn.rnn_cell.BasicRNNCell'
+62:15: INFO: Renamed 'tf.nn.rnn_cell.DropoutWrapper' to 'tf.compat.v1.nn.rnn_cell.DropoutWrapper'
+64:13: INFO: Added keywords to args of function 'tf.transpose'
+68:29: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+81:8: INFO: Added keywords to args of function 'tf.transpose'
+82:13: INFO: Added keywords to args of function 'tf.argmax'
+83:7: INFO: Added keywords to args of function 'tf.reduce_mean'
+84:12: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+87:5: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+88:11: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+
